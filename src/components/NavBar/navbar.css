@@ -1,0 +1,40 @@
+.logo {
+  width:80px;
+  height:80px;
+  position: relative;
+}
+
+.nav-menu{ 
+    width: 100%;
+    margin: 0;  
+    background-color: rgb(237, 169, 240);
+    top: 0;
+    margin-bottom: 45px;
+  }
+  
+  .nav-list{  
+    height: 78px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    font-weight:300;
+    font-size: 1.15em;
+    color:rgb(75, 5, 60)
+  }
+  
+  a:hover{
+    font-weight: 600;
+    color:rgb(31, 8, 27)
+  }
+  
+  .nav-menu:hover .card-favicon{
+    display: block;
+  }
